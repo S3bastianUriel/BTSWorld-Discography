@@ -48,7 +48,7 @@ const Menu = () => {
 					<a href="https://btsworld-home.netlify.app/" className="title">HOME</a>
 				</li>
 				<li>
-					<a href="/profile">PROFILE</a>
+					<a href="https://btsworld-profile.netlify.app/">PROFILE</a>
 				</li>
 				<li>
 					<a href="/">DISCOGRAPHY</a>
