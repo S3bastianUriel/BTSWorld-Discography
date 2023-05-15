@@ -1,0 +1,96 @@
+/*.ModalBackground {
+  width: 100%;
+  height: 100%;
+  // margin-top: 60px;
+  background: rgba(32, 35,41,.8);
+  // background: rgba(255, 255, 255, );
+
+  position: fixed;
+  // top: -10px;
+  // left: -10px;
+  // right: -10px;
+  // bottom: -10px;
+  top: 0px;
+  left: 0px;
+  // right: 5px;
+  // bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  // animation: swipeRight 0.26s ease;
+  animation: fadeIn 0.26s, slideIn .26s linear;
+
+  overflow-y: auto;
+}*/
+
+
+.ModalBackground {
+// .ModalMenu {
+  // background: rgba(32, 35,41,.8);
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  // width: 500px;
+  // height: 500px;
+  position: fixed;
+  // top: -10px;
+  // left: -10px;
+  // right: -10px;
+  // bottom: -10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  // animation: fadeIn 0.25s, slideIn .25s linear;
+  animation: fadeIn 0.40s, slideIn .40s linear;
+
+  overflow-y: auto;
+}
+
+
+
+
+// .modal {
+//     width: 200px;
+//     height: 200px;
+//     background-color: #2abd89;
+//     animation: fadeIn 1s, slideIn .8s linear;
+  
+//     margin: auto;
+//     border-radius: 10px;
+//     box-shadow: 0px 0px 30px #999;
+//   }
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    animation-timing-function: ease-out;
+  }
+  // 60% {
+  //   transform: translateY(-30px);
+  //   animation-timing-function: ease-in;
+  // }
+  // 80% {
+  //   transform: translateY(10px);
+  //   animation-timing-function: ease-out;
+  // }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
